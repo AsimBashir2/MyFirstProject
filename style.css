@@ -29,6 +29,7 @@
     width: 50%;
     margin-left: 125px;
     justify-content: center;
+    align-items: center;
     
 
 }
@@ -53,9 +54,7 @@
 .NavOptions_2 p{
     color: #222222;
     font-size: 1rem;
-    margin-right: 20px;
-    
-    
+    margin-right: 10px;
 }
 .NavOptions_2 i{
     font-size: 1rem;
@@ -86,4 +85,15 @@
 .Login_P i{
     font-size: 1.8rem;
     margin-left: 10px;
+}
+
+.border{
+    padding: 18px;
+    border:transparent;
+}
+
+.border:hover{
+    background-color : rgb(247, 247, 247);
+    border-radius: 50px;
+    padding: 18px;
 }
